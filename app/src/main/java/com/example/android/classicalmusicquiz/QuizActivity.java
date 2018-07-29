@@ -90,6 +90,9 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
 
         mPlayerView.setDefaultArtwork(BitmapFactory.decodeResource
                 (getResources(), R.drawable.question_mark));
+
+      //  mPlayerView.setDefaultArtwork(BitmapFactory.decodeResource
+        //        (getResources(), R.drawable.question_mark));
         // DONE (3): Replace the default artwork in the SimpleExoPlayerView with the question mark drawable.
         // Load the image of the composer for the answer into the ImageView.
         //simpleExoPlayerView..setImageBitmap(Sample.getComposerArtBySampleID(this, mAnswerSampleID)

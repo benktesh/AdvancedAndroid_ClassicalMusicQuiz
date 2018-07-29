@@ -21,6 +21,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -63,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
      * @param view The New Game button.
      */
     public void newGame(View view) {
+        //Toast.makeText(this, "Loading acitvity", Toast.LENGTH_SHORT);
         Intent quizIntent = new Intent(this, QuizActivity.class);
         startActivity(quizIntent);
     }
